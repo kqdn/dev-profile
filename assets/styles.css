@@ -80,3 +80,17 @@ nav ul {
 nav ul li {
   font-weight: var(--bold-font);
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 3.5rem;
+}
+
+.hero-img {
+  width: 50%;
+  height: auto;
+  border-radius: 5%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
