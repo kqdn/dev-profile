@@ -1,16 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 /* Variables */
 :root {
-  --font-family: "Roboto", sans-serif;
+  --font-family: "IBM Plex Sans", sans-serif;
+  --font-plex: "IBM Plex Sans", sans-serif;
+  --font-mono: "Roboto Mono", monospace;
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --bg-color: #e8e9ec;
+  --primary-color: #2d539e;
+  --secondary-color: #adb1c4;
   --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17a69;
+  --secondary-shadow: #ccceda;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -44,6 +46,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
+  background-color: var(--bg-color);
 }
 
 nav {
@@ -89,8 +92,13 @@ nav ul li {
 }
 
 .hero-img {
-  width: 50%;
+  width: 25%;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+  margin-left: 2rem;
+  color : var(--secondary-color);
 }
