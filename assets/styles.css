@@ -8,8 +8,8 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #e8e9ec;
-  --primary-color: #2d539e;
+  --bg-color: #e1e6f6;
+  --primary-color: #5882d0;
   --secondary-color: #adb1c4;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #ccceda;
@@ -84,6 +84,12 @@ nav ul li {
   font-weight: var(--bold-font);
 }
 
+.burger-menu { 
+  color : var(--primary-color);
+  background-color: var(--bg-color);
+  border: 2px solid var(--primary-color);
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -101,4 +107,8 @@ nav ul li {
 .bio {
   margin-left: 2rem;
   color : var(--secondary-color);
+}
+
+.bio-title {
+  color: var(--primary-color);
 }
