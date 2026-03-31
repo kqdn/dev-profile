@@ -18,6 +18,13 @@
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
   --transition: 0.3s;
+  --nav-height: 90px;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --nav-height: 132px;
+  }
 }
 /* Variables end */
 
@@ -61,6 +68,10 @@ nav {
   padding: 1.5rem 3.5rem;
   background-color: var(--bg2);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+section {
+  scroll-margin-top: var(--nav-height);
 }
 
 nav h1 {
