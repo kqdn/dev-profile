@@ -7,9 +7,9 @@ let projects = [
 },
 
 {
-    title: "Project 2",
-    description: "Description of project 2",
-    link: ""
+    title: "Encryption Project in Java",
+    description: "Java-based encryption system implementing historical and modern substitution ciphers. Features a flexible Cipher class that handles the classic Caesar shift, custom mapping keys, and dynamic rotation after every character to prevent frequency analysis. Supports case sensitivity and file I/O via the Encrypt class.",
+    link: "https://github.com/kqdn/Encryption-Project-Java"
 }
 
 ]
