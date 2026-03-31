@@ -1,3 +1,18 @@
+const burger = document.querySelector("#burger-menu");
+const navUl = document.querySelector(".navigation");
+const navLinks = document.querySelectorAll(".nav-link");
+
+burger.addEventListener("click", () => {
+    navUl.classList.toggle("active");
+});
+
+navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+        navUl.classList.remove("active");
+    });
+});
+
+
 let projects = [
 
 {
