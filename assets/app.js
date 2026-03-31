@@ -1,9 +1,9 @@
 let projects = [
 
 {
-    title: "Project 1",
-    description: "Description of project 1",
-    link: ""
+    title: "KKCF Final Demo Project",
+    description: "Designed and developed a comprehensive personal portfolio during a 100-hour project-based fellowship. This site integrates my technical CS projects with a forward-looking small business concept, emphasizing clean UI and cross-platform accessibility.",
+    link: "https://kaden-final-demo-project--kqdn.replit.app/index.html"
 },
 
 {
@@ -16,7 +16,6 @@ let projects = [
 
 function displayProjects() {
     let projectsContainer = document.getElementById("projects-container");
-    console.log(projectsContainer);
     projects.forEach(project => {
         let projectElement = document.createElement("div");
         projectElement.classList.add("project");
