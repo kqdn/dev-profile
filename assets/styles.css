@@ -170,3 +170,48 @@ nav ul li {
   padding: 20px;
   margin: 10px;
 }
+
+.projects {
+  margin: 3rem 10%;
+}
+
+.projects h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  background-color: var(--bg2);
+  border-radius: 8px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  padding: 2rem;
+  margin-bottom: 2rem; 
+  transition: var(--transition);
+}
+
+.project-card h3 {
+  color: var(--primary-color);
+  margin-bottom: var(--bottom-margin-2);
+}
+
+.project-card p {
+  line-height: var(--line-height);
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.project-link {
+  display: inline-block;
+  font-weight: var(--bold-font);
+  border: 2px solid var(--primary-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  transition: var(--transition);
+}
+
+.project-link:hover {
+  background-color: var(--primary-color);
+  color: var(--bg-color) !important;
+  border-bottom: none;
+}
