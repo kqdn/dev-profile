@@ -218,3 +218,10 @@ nav ul li {
   color: var(--bg-color) !important;
   text-decoration: none;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .burger-menu {
+    display: block;
+  }
+}
