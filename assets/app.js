@@ -15,14 +15,16 @@ let projects = [
 ]
 
 function displayProjects() {
-    let projectsContainer = document.getElementById("projects-container");
+    const projectsContainer = document.getElementById("projects-container");
+    
     projects.forEach(project => {
-        let projectElement = document.createElement("div");
-        projectElement.classList.add("project");
+        const projectElement = document.createElement("div");
+        projectElement.classList.add("project-card");
+        
         projectElement.innerHTML = `
             <h3>${project.title}</h3>
             <p>${project.description}</p>
-            <a href="${project.link}" target="_blank">View Project</a>
+            <a href="${project.link}" class="project-link" target="_blank">View Project</a>
         `;
         projectsContainer.appendChild(projectElement);
     });
