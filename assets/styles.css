@@ -234,6 +234,7 @@ nav ul li {
 @media screen and (max-width: 768px) {
   .burger-menu {
     display: block;
+    z-index: 1001; /* Above the navigation */;
   }
 
   .navigation {
