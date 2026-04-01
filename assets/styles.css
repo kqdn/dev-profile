@@ -256,4 +256,14 @@ nav ul li {
   .navigation.active {
     right: 0; 
   }
+
+  .hero {
+    flex-direction: column; /* Stack vertically instead of horizontally */
+    margin: 0 5%;          /* Smaller margin to save space */
+  }
+
+  .hero-img {
+    width: 60%;            /* Make the image larger when stacked */
+    margin-bottom: 2rem;    /* Add some space before the text */
+  }
 }
