@@ -263,7 +263,7 @@ nav ul li {
   .hero {
     flex-direction: column; /* Stack vertically instead of horizontally */
     margin: 0 0;          /* Smaller margin to save space */
-    padding: 1.5rem;
+    padding: 2rem;
   }
 
   .hero-img {
@@ -284,7 +284,7 @@ nav ul li {
   }
 
   .icon {
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
   }
 }
