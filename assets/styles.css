@@ -279,4 +279,9 @@ nav ul li {
   .more-about {
     margin: 0 0;
   }
+
+  .icon {
+    width: 8rem;
+    height: 8rem;
+  }
 }
