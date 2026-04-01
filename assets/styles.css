@@ -267,6 +267,7 @@ nav ul li {
   }
 
   .hero-img {
+    order: -1;
     width: 80%;            /* Make the image larger when stacked */
     margin-bottom: 2rem;    /* Add some space before the text */
   }
