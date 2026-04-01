@@ -108,21 +108,22 @@ nav ul li {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 3rem 3rem;
-  margin: 0 0;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 5rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .hero-img {
-  margin-right: 2rem;
-  width: 25%;
+  width: 20%;
   height: auto;
   border-radius: 5%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .bio {
-  max-width: 800px;
+  width: 40%;
   padding: 1.5rem;
   color : var(--secondary-color);
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
@@ -136,11 +137,10 @@ nav ul li {
 }
 
 .more-about {
-  max-width: 800px;
-  margin-left: 2rem;
+  width: 40%;
   background-color: var(--bg2);
-  padding: 1rem 1rem;
-  border-radius: 12px;
+  padding: 1.5rem;
+  border-radius: 8px;
   box-shadow: 0px 2px 15px 2px var(--primary-shadow);
 }
 
@@ -152,7 +152,7 @@ nav ul li {
 
 .more-about p {
   line-height: var(--line-height);
-  padding: 0.4rem;
+  padding: 0.4rem 0;
 }
 
 .skills {
@@ -263,10 +263,11 @@ nav ul li {
   .hero {
     flex-direction: column; /* Stack vertically instead of horizontally */
     margin: 0 0;          /* Smaller margin to save space */
+    padding: 1.5rem;
   }
 
   .hero-img {
-    width: 60%;            /* Make the image larger when stacked */
+    width: 80%;            /* Make the image larger when stacked */
     margin-bottom: 2rem;    /* Add some space before the text */
   }
 
@@ -278,6 +279,7 @@ nav ul li {
 
   .more-about {
     margin: 0 0;
+    width: 100%;
   }
 
   .icon {
