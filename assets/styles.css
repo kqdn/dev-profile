@@ -283,8 +283,8 @@ nav ul li {
     width: 100%;
   }
 
-  .icon {
-    width: 6rem;
-    height: 6rem;
+  .icon-card {
+    width: 20%;
+    height: 20%;
   }
 }
