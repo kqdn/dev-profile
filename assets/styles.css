@@ -183,6 +183,70 @@ nav ul li {
   margin: 10px;
 }
 
+.education,
+.experience {
+  margin: 3rem 10%;
+}
+
+.education h2,
+.experience h2 {
+  color: var(--primary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.education-card,
+.experience-card {
+  background-color: var(--bg2);
+  border-radius: 8px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.education-header,
+.experience-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: var(--bottom-margin-2);
+  flex-wrap: wrap;
+}
+
+.education-header h3,
+.experience-header h3 {
+  color: var(--primary-color);
+}
+
+.education-location,
+.experience-org {
+  display: block;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+}
+
+.education-dates,
+.experience-dates {
+  font-family: var(--font-mono);
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+  white-space: nowrap;
+}
+
+.education-details,
+.experience-details {
+  line-height: var(--line-height);
+  color: var(--secondary-color);
+}
+
+.education-details li,
+.experience-details li {
+  list-style-type: disc;
+  margin-left: 1.25rem;
+  padding: 0.15rem 0;
+}
+
 .projects {
   margin: 3rem 10%;
 }
