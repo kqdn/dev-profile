@@ -135,6 +135,11 @@ nav ul li {
   margin-bottom: var(--bottom-margin-2);
 }
 
+.bio-text {
+  line-height: var(--line-height);
+  padding: 0.4rem 0;
+}
+
 .more-about {
   width: 40%;
   background-color: var(--bg2);
@@ -293,6 +298,53 @@ nav ul li {
   background-color: var(--primary-color);
   color: var(--bg-color) !important;
   text-decoration: none;
+}
+
+.contact {
+  margin: 3rem 10%;
+  text-align: center;
+}
+
+.contact h2 {
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  width: 9rem;
+  padding: 1.5rem 1rem;
+  background-color: var(--bg2);
+  border-radius: 11px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  color: var(--primary-color);
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.contact-link:hover {
+  color: var(--secondary-color);
+  transform: translateY(-4px);
+}
+
+.contact-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.contact-icon-ion {
+  font-size: 3.5rem;
+  color: var(--primary-color);
 }
 
 /* Mobile Layout */
